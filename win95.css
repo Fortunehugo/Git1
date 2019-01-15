@@ -1,0 +1,62 @@
+body{
+	background-image:url(win95.jpg.png);
+}
+
+.barre{
+	background-color: rgb(240,240,240); ;
+	position: fixed;
+	padding: 15px ;
+	bottom:0;
+	width: 100%;
+	padding-right: : 100%;
+}
+#start:before {
+
+content:url("logoWin95.png");
+
+
+}
+#start{
+width:150px;
+height:30px;
+padding-right: : 50px;
+border:2px black solid;
+font-size: normal ;
+}
+
+#lanceur{
+position: fixed;
+bottom: 70px;
+border:2px black solid;
+background-color: rgb(240,240,240);
+}
+
+#lanceur ul{
+list-style: none;
+margin: 0;
+padding:0;
+}
+#lanceur ul>li>ul{
+	display:none;;
+}
+
+li{
+width: 150px;
+height: 25px;
+border:1px black solid;
+}
+li:hover {
+ background-color: blue;
+ cursor: pointer;
+}
+.icon:before {
+	content:url("notFound.png");
+
+}
+.icon{
+	display: inline;
+	margin-right: 50px;
+}
+
+
+
