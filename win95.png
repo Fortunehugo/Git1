@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+	<title>Windows 95</title>
+	<link rel="stylesheet" href="win95.css">
+	<meta charset="utf-8" />
+    </head>
+    <body>
+	<div class="icon">Poste de Travail</div>
+	<div class="icon">Panneau de configuration</div>
+	<div class="icon">Corbeille</div>
+	<div class="barre">
+	    <div id="start">DÃ©marrer</div>
+	</div>
+	<div id="lanceur">
+	    <ul>
+		<li>Programs
+		    <ul>
+			<li>DÃ©mineur</li>
+			<li>Steam</li>
+			<li>Firefox</li>
+		    </ul>
+		</li>
+		<li>Settings</li>
+		<li>Help</li>
+		<li>Run</li>
+		<li id="shutdown">Shutdown</li>
+	    </ul>
+	</div>
+	<div class="window">
+	  <div class="topbar">
+	    <span class="close">x</span>
+	  </div>
+	</div>
+    </body>
+</html>
